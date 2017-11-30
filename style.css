@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(185, 182, 182);
+}
+
+.jumbotron {
+    background-image: url(images/IMAG0295.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image {
+    padding: 60px 0 170px 0;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: white;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.about {
+    padding: 20px;
+    border-top: 10px solid rgb(87, 86, 86);
+}
+
+.portfolio {
+    padding-top: 10px;
+    border-top: 10px solid rgb(87, 86, 86);
+}
+
+.portfolio2 {
+    
+}
+.col-md-4{
+    padding: 20px;
+}
+
+.form {
+    border-top: 10px solid rgb(87, 86, 86);
+}
+
+.footer {
+    text-align: center;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+    .image {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
